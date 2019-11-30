@@ -10,9 +10,10 @@
 		805996A32391E66C00408352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805996A22391E66C00408352 /* AppDelegate.swift */; };
 		805996A52391E66C00408352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805996A42391E66C00408352 /* SceneDelegate.swift */; };
 		805996A72391E66C00408352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805996A62391E66C00408352 /* ViewController.swift */; };
-		805996AA2391E66C00408352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805996A82391E66C00408352 /* Main.storyboard */; };
 		805996AC2391E66D00408352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805996AB2391E66D00408352 /* Assets.xcassets */; };
 		805996AF2391E66D00408352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805996AD2391E66D00408352 /* LaunchScreen.storyboard */; };
+		805996B92391EE0300408352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805996B82391EE0300408352 /* Main.storyboard */; };
+		805996BB2391EED800408352 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805996BA2391EED800408352 /* RecordWhistleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		805996A22391E66C00408352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		805996A42391E66C00408352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		805996A62391E66C00408352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		805996A92391E66C00408352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		805996AB2391E66D00408352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805996AE2391E66D00408352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		805996B02391E66D00408352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805996B82391EE0300408352 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		805996BA2391EED800408352 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				805996A22391E66C00408352 /* AppDelegate.swift */,
 				805996A42391E66C00408352 /* SceneDelegate.swift */,
 				805996A62391E66C00408352 /* ViewController.swift */,
-				805996A82391E66C00408352 /* Main.storyboard */,
+				805996BA2391EED800408352 /* RecordWhistleViewController.swift */,
+				805996B82391EE0300408352 /* Main.storyboard */,
 				805996AB2391E66D00408352 /* Assets.xcassets */,
 				805996AD2391E66D00408352 /* LaunchScreen.storyboard */,
 				805996B02391E66D00408352 /* Info.plist */,
@@ -125,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805996B92391EE0300408352 /* Main.storyboard in Resources */,
 				805996AF2391E66D00408352 /* LaunchScreen.storyboard in Resources */,
 				805996AC2391E66D00408352 /* Assets.xcassets in Resources */,
-				805996AA2391E66C00408352 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +143,7 @@
 			files = (
 				805996A72391E66C00408352 /* ViewController.swift in Sources */,
 				805996A32391E66C00408352 /* AppDelegate.swift in Sources */,
+				805996BB2391EED800408352 /* RecordWhistleViewController.swift in Sources */,
 				805996A52391E66C00408352 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		805996A82391E66C00408352 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				805996A92391E66C00408352 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		805996AD2391E66D00408352 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
